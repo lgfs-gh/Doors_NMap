@@ -98,6 +98,8 @@ def scan(dominio):
         print(bold('\n-------- PROGRAMA ENCERRADO --------'))
         sleep(1)
         exit(0)
+    else:
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 
 # Press the green button in the gutter to run the script.
